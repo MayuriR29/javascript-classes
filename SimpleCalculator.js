@@ -1,21 +1,21 @@
 class SimpleCalculator{
-    constructor(value){
-        this.value=0;
+    constructor(value=0){
+        this.value=value;
     }
     add(num){
-         this.value=this.value+num;
+         this.value += num;
          return this;
     }
     subtract(num){
-        this.value=this.value-num;
+        this.value -= num;
         return this;
    }
    multiply(num){
-    this.value=this.value*num;
+    this.value *= num;
     return this;
     }
     divide(num){
-        this.value=this.value/num;
+        this.value /= num;
         return this;
         }
 }
