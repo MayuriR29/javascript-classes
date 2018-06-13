@@ -20,4 +20,4 @@ class SimpleCalculator{
         }
 }
 var calculator=new SimpleCalculator();
-console.log(calculator.add(12).multiply(2).divide(2).value);
+console.log(calculator.add(12).multiply(2).divide(2));
